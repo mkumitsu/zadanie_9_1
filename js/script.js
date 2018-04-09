@@ -6,7 +6,7 @@ var triangle3Area = getTriangleArea(-30, 35);
 function getTriangleArea(a, h) {
 
     if ((a <= 0) || (h <= 0)) {
-        alert("Nieprawidłowe dane");
+        return alert("Nieprawidłowe dane");
     } else {
         return a * h / 2;
     }
